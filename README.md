@@ -6,7 +6,7 @@
 
 For the traveling salesperson problem, convert the mathematical formulation into a model in Python. Use a list variable to represent the decision variable, and formulate the problem so that it is compatible for submission to the Stride hybrid solver.
 
-The objective is to minimize the total distance traveled between locations, including the return trip to the origin. The decision variable is the order in which each city is visited. There is only one constraint which is that each city must be visited exactly once.
+The objective is to minimize the total distance traveled between locations, including the return trip to the origin. The decision variable represents the order in which each city is visited. There is only one constraint which is that each city must be visited exactly once.
 
 Build the nonlinear model then define the objective function. Remember that the constraint is implicitly enforced by the use of a list to represent the decision variable.
 
@@ -14,7 +14,7 @@ Build the nonlinear model then define the objective function. Remember that the 
 
 In the first exercise, build the traveling salesperson problem so that the total distance traveled is minimized. Create the model object, add the constant to the model, define the decision variable, and set the objective function. Then, provide two different initial states to test the code.
 
-Open the code file `tsp_list_initial_states.py`.
+Open `tsp_list_initial_states.py`.
 
    1. Import any required packages.
    
@@ -55,11 +55,11 @@ Open the code file `tsp_list_initial_states.py`.
 
 For exercise 2, submit the problem to the Stride hybrid solver to obtain the best solution.
 
-Start with the work you did in exercise 1. Create the model object, add the constant to the model, define the decision variable, and set the objective function. Then, submit the problem to the Stride hybrid solver.
+Start with the work completed in exercise 1. Create the model object, add the constant to the model, define the decision variable, and set the objective function. Then, submit the problem to the Stride hybrid solver.
 
-Open the code file `tsp_list_submit.py`.
+Open `tsp_list_submit.py`.
 
-   1. Repeat steps 1 to 6 of exercise 1. You may copy all the work you submitted in the code file `tsp_list_initial_states.py`.
+   1. Repeat steps 1 to 6 of exercise 1. You may copy all the work you submitted in `tsp_list_initial_states.py`.
    
    2. Lock the model explicitly to prevent further changes.
 
