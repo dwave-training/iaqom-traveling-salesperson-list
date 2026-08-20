@@ -2,7 +2,7 @@
   https://img.shields.io/badge/Open%20in%20GitHub%20Codespaces-333?logo=github)](
   https://codespaces.new/dwave-training/iaqom-traveling-salesperson-list?quickstart=1)
   
-# Traveling Salesperson with Stride<sup>TM</sup> Hybrid Solver using List Variable
+# Traveling Salesperson with Stride<sup>TM</sup> Hybrid Solver Using List Variable
 
 For the traveling salesperson problem, convert the mathematical formulation into a model in Python. Use a list variable to represent the decision variable, and formulate the problem so that it is compatible for submission to the Stride hybrid solver.
 
@@ -30,11 +30,9 @@ Open `tsp_list_initial_states.py`.
    6. Set the objective function to minimize the total distance traveled between locations, including the return trip to the origin:
 
    ```math
-   \min \Bigl[
-   (D[route[:-1], route[1:]]).sum()
-   +
-   D[route[-1], route[0]]
-   \Bigr]
+    min[
+        D[route[:-1], route[1:]].sum() + D[route[-1], route[0]]
+    ]
    ```
 
    7. Lock the model using a context manager. Include the following steps in the block:

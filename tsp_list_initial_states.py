@@ -3,6 +3,7 @@ Requirements:
     Objective: Minimize the total distance traveled.
     Constraint: Each city must be visited exactly once.
 """
+
 # TODO: Import any required packages.
 
 
@@ -11,7 +12,7 @@ Requirements:
 
 # TODO: Create the distance array by using numpy and name it distance_matrix.
 # Hint: Import the required package and abbreviate it as np.
-'''
+"""
  Below is the distance matrix needed:
 [
 [0, 5, 7, 14, 3, 2],
@@ -21,14 +22,14 @@ Requirements:
 [3, 8, 11, 9, 0, 2],
 [2, 1, 7, 3, 2, 0]
 ]
-'''
+"""
 
 
 # TODO: Add the constant to the model object.
 # Hint: Add the constant distance_matrix to the model object and name it D.
 
 
-# TODO: Define the list variable and store it in route.
+# TODO: Define the list variable and store it in `route`.
 # Hint: Set the total number of visited cities to 6.
 
 
@@ -37,7 +38,7 @@ Requirements:
 
 
 # Process and print solution.
-print("\nTest the initial states of the Traveling Salesperson problem using list variable: \n")
+print("\nTest the initial states of the Traveling Salesperson problem using a list variable: \n")
 """Read in the initial states returned and display the solutions."""
 
 # TODO: Lock the model using a context manager.
