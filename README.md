@@ -25,7 +25,7 @@ Open `tsp_list_initial_states.py`.
    4. Add the constant to the model object.
       - Add `distance_matrix` to the model object and name it `D`.
    
-   5. Define the list decision variable and store it in `route`. Set the total number of visited cities to six.
+   5. Define the list decision variable and store it in `route`. Set the total number of visited cities to 6.
 
    6. Set the objective function to minimize the total distance traveled between locations, including the return trip to the origin:
 
@@ -63,7 +63,7 @@ Open `tsp_list_submit.py`.
 
    3. Instantiate the nonlinear sampler and name it `sampler`.
    
-   4. Submit the nonlinear model to the Stride hybrid solver. Give this problem a label on your Leap dashboard by using the `label` parameter. Use the label `TSP_List`. Note that this label is case sensitive and uses an underscore.
+   4. Submit the nonlinear model to the Stride hybrid solver. Label your problem "TPS_List" using the `label` parameter. This label will show in your Leap dashboard when you submit your problem. Note that this label is case sensitive and uses an underscore.
 
    5. Return the best solution for the list variable symbol and store it in `route_state`.
 

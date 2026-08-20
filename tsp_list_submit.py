@@ -7,11 +7,11 @@ Requirements:
 # TODO: Import any required packages.
 
 
-# TODO: Initialize the nonlinear model called model.
+# TODO: Initialize the nonlinear model called `model`.
 
 
-# TODO: Create the distance array by using numpy and name it distance_matrix.
-# Hint: Import the required package and abbreviate it as np.
+# TODO: Create the distance array by using numpy and name it `distance_matrix`.
+# Hint: Import the required package and abbreviate it as `np`.
 """
  Below is the distance matrix needed:
 [
@@ -26,7 +26,7 @@ Requirements:
 
 
 # TODO: Add the constant to the model object.
-# Hint: Add the constant distance_matrix to the model object and name it D.
+# Hint: Add the constant distance_matrix to the model object and name it `D`.
 
 
 # TODO: Define the list variable and store it in `route`.
@@ -43,12 +43,12 @@ Requirements:
 # TODO: Instantiate the nonlinear sampler and name it `sampler`.
 
 
-# TODO: Submit the nonlinear model to the Stride hybrid solver. Use the label 'TSP_List', which is case sensitive and uses an underscore.
+# TODO: Submit the nonlinear model to the Stride hybrid solver. Use the label "TSP_List", which is case sensitive and uses an underscore.
 
 
 # Process and print solution.
 print("\nSubmit the Traveling Salesperson problem to the Stride hybrid solver using a list variable: \n")
-"""Read in solution returned using .state(0) and display the solutions."""
+"""Read in the solution returned using .state(0) and display the solutions."""
 
 # TODO: Return the best solution for the list variable and store it in `route_state`.
 

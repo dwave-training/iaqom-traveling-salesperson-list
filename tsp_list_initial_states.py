@@ -7,11 +7,11 @@ Requirements:
 # TODO: Import any required packages.
 
 
-# TODO: Initialize the nonlinear model called model.
+# TODO: Initialize the nonlinear model called `model`.
 
 
-# TODO: Create the distance array by using numpy and name it distance_matrix.
-# Hint: Import the required package and abbreviate it as np.
+# TODO: Create the distance array by using numpy and name it `distance_matrix`.
+# Hint: Import the required package and abbreviate it as `np`.
 """
  Below is the distance matrix needed:
 [
@@ -26,7 +26,7 @@ Requirements:
 
 
 # TODO: Add the constant to the model object.
-# Hint: Add the constant distance_matrix to the model object and name it D.
+# Hint: Add the constant `distance_matrix` to the model object and name it `D`.
 
 
 # TODO: Define the list variable and store it in `route`.
@@ -45,25 +45,25 @@ print("\nTest the initial states of the Traveling Salesperson problem using a li
 
 
     # TODO: Define the number of states (test two different states).
-    
 
-    # TODO: Provide the following initial states: [0, 2, 4, 3, 5, 1] and [0, 3, 1, 4, 2, 5], and assign them the indexes 0 and 1, respectively.
-    
 
-    # TODO: Return the initial state [0, 2, 4, 3, 5, 1] for the list variable symbol and store it in route_state0.
-    
+    # TODO: Provide the following initial states: `[0, 2, 4, 3, 5, 1]` and `[0, 3, 1, 4, 2, 5]`, and assign them the indexes 0 and 1, respectively.
 
-    # TODO: Return the objective value of the initial state [0, 2, 4, 3, 5, 1] and store it in objective_value0.
-    
+
+    # TODO: Return the initial state `[0, 2, 4, 3, 5, 1]` for the list variable symbol and store it in `route_state0`.
+
+
+    # TODO: Return the objective value of the initial state `[0, 2, 4, 3, 5, 1]` and store it in `objective_value0`.
+
 
     # Print initial state 0 and its objective value.
     print(f"For state 0, route={route_state0} results in objective {objective_value0}")
 
-    # TODO: Return the initial state [0, 3, 1, 4, 2, 5] for the list variable symbol and store it in route_state1.
-    
+    # TODO: Return the initial state `[0, 3, 1, 4, 2, 5]` for the list variable symbol and store it in `route_state1`.
 
-    # TODO: Return the objective value of the initial state [0, 3, 1, 4, 2, 5] and store it in objective_value1.
-    
+
+    # TODO: Return the objective value of the initial state `[0, 3, 1, 4, 2, 5]` and store it in `objective_value1`.
+
 
     # Print initial state 1 and its objective value.
     print(f"For state 1, route={route_state1} results in objective {objective_value1}")
