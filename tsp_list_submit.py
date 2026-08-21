@@ -11,7 +11,7 @@ Requirements:
 
 
 # TODO: Create the distance array by using numpy and name it `distance_matrix`.
-# Hint: Import the required package and abbreviate it as `np`.
+# Hint: Import the required package and alias it as `np`.
 """
  Below is the distance matrix needed:
 [
