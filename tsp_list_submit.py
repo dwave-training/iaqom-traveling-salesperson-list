@@ -43,7 +43,7 @@ Requirements:
 # TODO: Instantiate the nonlinear sampler and name it `sampler`.
 
 
-# TODO: Submit the nonlinear model to the Stride hybrid solver. Use the label "TSP_List", which is case sensitive and uses an underscore.
+# TODO: Submit the nonlinear model to the Stride hybrid solver. Use the label "TSP_List", which is case-sensitive and uses an underscore.
 
 
 # Process and print solution.

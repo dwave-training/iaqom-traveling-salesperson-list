@@ -2,13 +2,13 @@
   https://img.shields.io/badge/Open%20in%20GitHub%20Codespaces-333?logo=github)](
   https://codespaces.new/dwave-training/iaqom-traveling-salesperson-list?quickstart=1)
   
-# Traveling Salesperson with Stride<sup>TM</sup> Hybrid Solver Using List Variable
+# Traveling Salesperson with Stride<sup>TM</sup> Hybrid Solver Using a List Variable
 
 For the traveling salesperson problem, convert the mathematical formulation into a model in Python. Use a list variable to represent the decision variable, and formulate the problem so that it is compatible for submission to the Stride hybrid solver.
 
-The objective is to minimize the total distance traveled between locations, including the return trip to the origin. The decision variable represents the order in which each city is visited. There is only one constraint which is that each city must be visited exactly once.
+The objective is to minimize the total distance traveled between locations, including the return trip to the origin. The decision variable represents the order in which each city is visited. There is only one constraint: each city must be visited exactly once.
 
-Build the nonlinear model then define the objective function. Remember that the constraint is implicitly enforced by the use of a list to represent the decision variable.
+Build the nonlinear model and then define the objective function. Remember that the constraint is implicitly enforced by the use of a list to represent the decision variable.
 
 ## Exercise 1
 
@@ -39,7 +39,7 @@ Open `tsp_list_initial_states.py`.
 
       a. Define the number of states. In this case, two different states are being tested.
    
-      b. Provide the following initial states `[0, 2, 4, 3, 5, 1]` and `[0, 3, 1, 4, 2, 5]`, and assign them the indexes 0 and 1, respectively.
+      b. Provide the following initial states `[0, 2, 4, 3, 5, 1]` and `[0, 3, 1, 4, 2, 5]`, and assign the indexes 0 and 1, respectively, to them.
 
       c. Return the initial state `[0, 2, 4, 3, 5, 1]` for the list variable symbol and store it in `route_state0`.
 
@@ -63,8 +63,8 @@ Open `tsp_list_submit.py`.
 
    3. Instantiate the nonlinear sampler and name it `sampler`.
    
-   4. Submit the nonlinear model to the Stride hybrid solver. Label your problem "TPS_List" using the `label` parameter. This label will show in your Leap dashboard when you submit your problem. Note that this label is case sensitive and uses an underscore.
+   4. Submit the nonlinear model to the Stride hybrid solver. Label your problem "TPS_List" using the `label` parameter. This label will display in your Leap dashboard when you submit your problem. Note that this label is case-sensitive and uses an underscore.
 
    5. Return the best solution for the list variable symbol and store it in `route_state`.
 
-   6. Return the objective value of the best solution and store it in `objective_value`.
+   6. Return the best solution's objective value and store it in `objective_value`.

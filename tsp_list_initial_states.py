@@ -47,7 +47,7 @@ print("\nTest the initial states of the Traveling Salesperson problem using a li
     # TODO: Define the number of states (test two different states).
 
 
-    # TODO: Provide the following initial states: `[0, 2, 4, 3, 5, 1]` and `[0, 3, 1, 4, 2, 5]`, and assign them the indexes 0 and 1, respectively.
+    # TODO: Provide the following initial states: `[0, 2, 4, 3, 5, 1]` and `[0, 3, 1, 4, 2, 5]`, and assign the indexes 0 and 1, respectively, to them.
 
 
     # TODO: Return the initial state `[0, 2, 4, 3, 5, 1]` for the list variable symbol and store it in `route_state0`.
