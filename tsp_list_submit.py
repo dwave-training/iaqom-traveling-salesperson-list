@@ -10,7 +10,7 @@ Requirements:
 # TODO: Initialize the nonlinear model called `model`.
 
 
-# TODO: Create the distance array by using numpy and name it `distance_matrix`.
+# TODO: Create the distance array, using NumPy, and name it `distance_matrix`.
 # Hint: Import the required package and alias it as `np`.
 """
  Below is the distance matrix needed:

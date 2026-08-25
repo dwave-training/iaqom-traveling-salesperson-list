@@ -20,7 +20,7 @@ Open `tsp_list_initial_states.py`.
    
    2. Create a nonlinear model object called `model`.
 
-   3. Create the distance array by using numpy and name it `distance_matrix`. Import the required package and abbreviate it as `np`.
+   3. Create the distance array, using NumPy, and name it `distance_matrix`. Import the required package and abbreviate it as `np`.
 
    4. Add the constant to the model object.
       - Add `distance_matrix` to the model object and name it `D`.
