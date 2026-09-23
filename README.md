@@ -63,7 +63,7 @@ Open `tsp_list_submit.py`.
 
    3. Instantiate the nonlinear sampler and name it `sampler`.
    
-   4. Submit the nonlinear model to the Stride hybrid solver. Label your problem "TPS_List" using the `label` parameter. This label will display in your Leap dashboard when you submit your problem. Note that this label is case-sensitive and uses an underscore.
+   4. Submit the nonlinear model to the Stride hybrid solver. Label your problem "TSP_List" using the `label` parameter. This label will display in your Leap dashboard when you submit your problem. Note that this label is case-sensitive and uses an underscore.
 
    5. Return the best solution for the list variable symbol and store it in `route_state`.
 
